@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rfo.e920"
+    android:installLocation="auto"
+    android:versionCode="48"
+    android:versionName="13.7.20" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <!-- <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL" /> -->
+<!--      <uses-permission android:name="com.google.android.providers.gmail.permission.READ_GMAIL"/> -->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" >
+    </uses-sdk>
+
+    <application
+        android:name="com.rfo.e920.JecApp"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:theme="@style/MultiTab" >
+        <activity
+            android:name="com.rfo.e920.JecEditor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/x-*" />
+                <data android:mimeType="application/xml" />
+                <data android:mimeType="application/postscript" />
+                <data android:mimeType="application/plain" />
+                <data android:mimeType="application/x-tcl" />
+                <data android:mimeType="application/x-javascript" />
+                <data android:mimeType="application/inf" />
+                <data android:mimeType="application/octet-stream" />
+                <data android:mimeType="text/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.googlecode.android_scripting.action.EDIT_SCRIPT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jecelyin.util.FileBrowser" >
+        </activity>
+        <activity android:name="com.rfo.e920.EditorPreference" >
+        </activity>
+        <activity android:name="com.rfo.e920.About" >
+        </activity>
+        <activity android:name="com.rfo.e920.Grep" >
+        </activity>
+        <activity android:name="com.rfo.e920.preferences.CustomMenu" >
+        </activity>
+        <activity
+            android:name="com.jecelyin.util.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance" >
+        </activity>
+    </application>
+
+</manifest>

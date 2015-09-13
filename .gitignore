@@ -1,0 +1,17 @@
+# built application files
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# App Builder compiling batch
+BuildAPK.bat

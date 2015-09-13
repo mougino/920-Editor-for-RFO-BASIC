@@ -1,0 +1,74 @@
+Version 13.7.20
+     *) Fixed: solved the crash at runtime in Android 5.0 (Lollipop)
+     *) Fixed: custom color picker for BASIC! is only proposed in the Editor, not in the preferences > coloration
+     *) Change: added features copy, cut, paste, search, and goto line in upper bar
+     *) Change: re-designed most icons and resources to adopt Android Lollipop Material design
+     *) Change: updated keyword list for syntax coloration with BASIC! v01.86 keywords
+
+Version 13.7.19
+     *) Fixed: saving a file proposes the .bas extension instead of .txt
+     *) Fixed: syntax highlighting for keywords with dots
+     *) Fixed: syntax highlighting for pipe (logical 'Or' operator)
+     *) Change: symbol table lists the most frequent BASIC! symbols first
+     *) Change: better naming for preference > editor > spell-checking (now called native soft keyboard)
+     *) Change: preference > help > help now links to the rfobasic.freeforums.org 920 Editor topic
+
+Version 13.7.18
+     *) Fixed: Fixed line number display ....
+     *) Fixed: Some characters can not be displayed on the right ....
+     *) Fixed: Fixed newline char save BUG
+     *) Change: performance optimization.
+     *) Feature: add default encoding settings
+
+Version 13.7.16
+    *) Fixed: Some Bug....
+    *) Change: Performance Optimization.
+    
+Version 13.7.12
+    *) Fixed: Some Bug...
+    We're sorry, this version changed a lot, I will try to fix all the BUG. Thank you for your support!
+
+Version 13.7.10
+    *) Fixed: Some Bug...
+    PS: In the near future, It will be adding more new features and optimize its speed.
+
+Version 13.7.9
+    *) Fixed: Some devices can not select text
+    *) Fixed: Unable to delete directory
+    *) Fixed: Custom Date and time bug
+    *) Fixed: Crash when searching special characters
+    *) Feature: The new version detection
+    *) Feature: New Directory
+    *) Feature: Insert spaces instead of tabs
+    *) Feature: Document Properties Show encoding and newline
+    *) Feature: add 'Convert to Titlecase'
+
+Version 12.11.23 b3
+    *) Bug Fix: fixed the Tablet PC can not start the program BUG
+    Thanks to: J.Kohn
+
+Version 12.11.23
+    *) Bug Fix: switch input method causes the text into a line
+
+    *) Change: remove read Email permission, may lead to the e-mail attachments can not be previewed
+
+    *) Feature: Add recursive directory search
+    *) Feature: Add assembler syntax support
+
+Version 12.9.25
+    *) Bug Fix: 920 text editor may pop up when you open the Email
+    *) Bug Fix: ROOT privileges enabled some BUG
+    *) Bug Fix: only open the last a file
+    
+    *) Change: using the system menu is disabled by default, resolves can not copy and paste
+    *) Change: the "spell check" is disabled by default, resolves can not copy and paste
+    *) Change: updated Italian, Spanish, Japanese language
+    
+    *) Feature: "save as" supports file encoding and linebreak char conversion
+    *) Feature: "Open With.." menu to add Python, Perl, Lua, JavaScript, Tcl, the shell file to run in SL4A
+
+Version 12.8.29
+    *) Bug Fix：fixed duplicate blank lines cause the editor to crash
+    *) Bug Fix：fixed may open an empty file cause the editor to crash
+    
+    *) Feature：add Ruby syntax highlighting

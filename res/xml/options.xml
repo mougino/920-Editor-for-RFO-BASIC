@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="opt_editors"
+        android:title="@string/editors" />
+
+    <Preference
+        android:key="opt_highlight"
+        android:title="@string/highlight" />
+
+    <Preference
+        android:key="clear_history"
+        android:title="@string/clear_history" >
+    </Preference>
+
+    <Preference
+        android:key="opt_other"
+        android:title="@string/Other" />
+
+    <Preference
+        android:key="opt_help"
+        android:title="@string/help" >
+    </Preference>
+    
+	<!--Preference android:key="opt_custom_toolbar" android:title="@string/custom_toolbar"/-->
+
+</PreferenceScreen>

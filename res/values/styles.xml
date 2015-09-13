@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MultiTab" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/JecButton</item>
+        <item name="android:imageButtonStyle">@style/JecImageButton</item>
+        <!--<item name="android:textSelectHandle">@drawable/text_select_handle</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle</item>-->
+    </style>
+
+    <style name="JecButton" parent="@android:style/Widget.Button">
+
+        <!-- 水平、垂直居中 -->
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#80000000</item>
+        <!-- 这里引用定义的按钮样式 -->
+        <item name="android:background">@drawable/btn_bg</item>
+    </style>
+
+    <style name="JecImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/btn_bg</item>
+    </style>
+
+    <style name="symbolgrid_text">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextViewFloatPanelButton">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/textview_floatpanel_button_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/textview_floatpanel_button_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">38.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ccffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+</resources>

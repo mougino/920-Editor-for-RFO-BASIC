@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    
+    <string name="app_name">920 Éditeur pour BASIC!</string>
+    <string name="open">Ouvrir</string>
+    <string name="select_file">Ouvrir un fichier</string>
+    <string name="confirm_exit">Etes vous sûr de vouloir quitter ?</string>
+    <string name="ok">OK</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="cancel">Annuler</string>
+    <string name="encoding">Encodage</string>
+    <string name="save_succ">Enregistrement effectué !</string>
+    <string name="save_changes">Enregistrer les modifications ?</string>
+    <string name="save">Enregistrer</string>
+    <string name="filename_is_empty">Le nom de fichier ne peut être vide !</string>
+    <string name="new_filename">Sans titre</string>
+    <string name="highlight">Coloration syntaxique</string>
+    <string name="search_replace">Rechercher/Remplacer</string>
+    <string name="options">Options</string>
+    <string name="preferences">Préférences</string>
+    <string name="saveas">Sauver sous</string>
+    <string name="reopen">Récent</string>
+    <string name="history">Fichiers récents...</string>
+    <string name="file_not_exists">Le fichier n\'existe pas !</string>
+    <string name="replace">Remplacer</string>
+    <string name="replace_all">Tout</string>
+    <string name="spinner_message">En cours</string>
+    <string name="searching">Recherche en cours...</string>
+    <string name="not_found">Aucun résultat !</string>
+    <string name="replace_finish">Remplacement effectué !</string>
+    <string name="font">Police</string>
+    <string name="font_size">Taille de police</string>
+    
+    <string name="view">Voir</string>
+    <string name="word_wrap">Retour à la ligne</string>
+    <string name="show_line_num">Afficher les numéros de lignes</string>
+    <string name="show_tab">Afficher les tabulations/retours chariot</string>
+    <string name="screen_orientation">Orientation de l\'écran</string>
+    <string name="screen_orientation_auto">Rotation auto</string>
+    <string name="screen_orientation_portrait">Portrait</string>
+    <string name="screen_orientation_landscape">Paysage</string>
+    
+    <string name="enable_highlight">Coloration syntaxique</string>
+    <string name="highlight_limit">Taille limite du fichier pour coloration</string>
+    <string name="highlight_limit_message">Si la taille du fichier est plus grande que cette valeur, arrêt de la coloration; Unité: ko</string>
+    <string name="request_restart">* Nécessite un redémarrage</string>
+    
+    <string name="label_version">Version</string>
+    <string name="label_author">Auteur</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_homepage">Page web</string>
+    <string name="label_license">Licence</string>
+    <string name="field_license">
+Copyright (C) 2011-2012  Jecelyin Peng\n
+920 Text Editor is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.\n
+920 Text Editor is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n
+You should have received a copy of the GNU General Public License along with this program; if not, see http://www.gnu.org/licenses.
+    </string>
+    <string name="about">À Propos</string>
+    <string name="loading">Chargement...</string>
+    <string name="highlight_stop_msg">La taille du fichier dépasse la "taille maximum de coloration", arrêt de la coloration</string>
+    
+    <string name="search">Recherche</string>
+    <string name="search_regex">Expression Régulière</string>
+    <string name="search_ignore_case">Ignorer la casse</string>
+    <string name="search_error">Erreur sur la recherche du mot clé, vous pouvez utiliser des expressions régulières</string>
+    
+    <string name="Other">Autres</string>
+    <string name="open_last_file">Se souvenir du dernier fichier</string>
+    <string name="open_last_file_summary">A l\'ouverture, automatiquement ouvrir le dernier fichier</string>
+    <string name="auto_indent">Auto Incrementer</string>
+    <string name="clear_history">Vider l\'historique</string>
+    <string name="clear_history_ok">L\'historique à été vidé.</string>
+    <string name="exit">Quitter</string>
+    <string name="keep_screen_on_summary">Garder l\'écran allumé si visible</string>
+    <string name="keep_screen_on">Garder l\'écran allumé</string>
+    <string name="help">Aide</string>
+    
+    <string name="show_ime">Afficher l\'interface de saisie</string>
+    <string name="to_lower">Convertir en minuscules</string>
+    <string name="to_upper">Convertir en majuscules</string>
+    <string name="convert_to_titlecase">Convertir initiales en maj.</string>
+    <string name="out_of_memory">Echec de l\'ouverture, Mémoire insuffisante !</string>
+    <string name="exception">Une erreur s\'est produite, Echec de l\'exécution !</string>
+    <string name="back_button_exit">Touche retour pour quitter</string>
+    <string name="preview_msg">Vous devez enregistrer avant de prévisualiser</string>
+    <string name="goto_line">Aller à la ligne...</string>
+    <string name="can_not_gotoline">Impossible d\'aller à la ligne spécifiée</string>
+    <string name="have_not_saved_doc">Vous n\'avez pas enregistré le document !</string>
+    <string name="get_root_title">Obtention des permissions ROOT</string>
+    <string name="open_with">Partager...</string>
+    <string name="rename">Renommer...</string>
+    <string name="delete">Supprimer...</string>
+    <string name="qq_group">Groupe QQ</string>
+    <string name="rename_failed">Impossible de renommer !</string>
+    <string name="confirm_delete">Êtes vous sûr de vouloir supprimer ce fichier ?</string>
+    <string name="save_failed">Echec de l\'enregistrement !</string>
+    <string name="can_not_create_temp_path">Echec de la création du repertoire temporaire, Merci de vérifier votre carte SD !</string>
+    <string name="get_root_summary">* Vous pouvez avoir besoin d\'utiliser d\'autres outils pour monter la partition en écriture</string>
+    <string name="volume_up_toolbar_msg">Barre d\'outils masquée, Appuyez sur la touche "volume bas" pour l\'afficher</string>
+    <string name="volume_up_fullscreen_msg">Mode plein écran activé, Appuyez sur la touche "volume bas" pour en sortir</string>
+    <string name="autosave">Enregistrement auto</string>
+    <string name="autosave_summery">Enregistrer automatiquement si l\'éditeur n\'est plus la fenêtre active</string>
+    <string name="has_autosave">Le document actuel a été automatiquement enregistré.</string>
+    <string name="overwrite_confirm">Le fichier existe déjà. Voulez-vous le remplacer ?</string>
+    <string name="use_custom_hl_color">Utiliser des couleurs personnalisées</string>
+    <string name="use_custom_hl_color_msg">En cas de désactivation, utiliser le schéma de coloration de base</string>
+    <string name="custom_hl_color">Couleurs personnalisées</string>
+    <string name="string_color">Couleur Chaînes de Caractères </string>
+    <string name="keyword_color">Couleur Mot-clé</string>
+    <string name="comment_color">Couleur Commentaire </string>
+    <string name="tag_color">Couleur Tag (ex: &lt;?php)</string>
+    <string name="function_color">Couleur Fonction</string>
+    <string name="attr_color">Couleur nom d\'attribut</string>
+    <string name="current_color">Couleur actuelle : </string>
+    <string name="invalid_color">Valeur de la couleur invalide</string>
+    <string name="insert_color">Insérer une couleur</string>
+    <string name="font_color">Couleur de police</string>
+    <string name="backgroup_color">Couleur de fond</string>
+    <string name="can_not_create_synfile">Impossible d\'ouvrir le fichier de syntaxe, vérifiez que votre carte SD a suffisamment de place!</string>
+    <string name="can_not_list_file">Impossible de lire la liste des fichiers, Essayez d\'ouvrir/fermer les accès ROOT dans le menu "Préférences"</string>
+    <string name="go_to_begin">Aller au début</string>
+    <string name="go_to_end">Aller à la fin</string>
+    <string name="report_bug">Signaler un bug</string>
+    <string name="project_homepage">Aider à traduire</string>
+    <string name="convert_linebreak_char">Convertir retours chariot</string>
+    <string-array name="linebreak_chars">
+        <item>Pas de changement</item>
+        <item>CR+LF (Windows)</item>
+        <item>LF Seulement (Unix/Android)</item>
+        <item>CR Seulement (Macintosh)</item>
+    </string-array>
+    <string name="hide_ime">Masquer l\'interface de saisie</string>
+    <string name="changelog">ChangeLog</string>
+    <string name="editors">Éditeur</string>
+    <string name="open_pipe">Ouvrir avec</string>
+    <string name="share">Partager (envoyer le texte)</string>
+    <string name="disable_spell">Clavier virtuel natif (brut)</string>
+    <string name="selectText">Sélectionner texte</string>
+    <string name="selectAll">Tout sélectionner</string>
+    <string name="duplicate_line">Dupliquer ligne courante</string>
+    <string name="duplicate_selected_text">Dupliquer texte sélectionné</string>
+    <string name="insert_datetime">Insérer:</string>
+    <string name="editTextMenuTitle">Éditer le texte</string>
+    <string name="doc_stat">Statistiques du document</string>
+    <string name="filename">Fichier :</string>
+    <string name="encoding2">Encodage :</string>
+    <string name="linebreak">Fin de ligne :</string>
+    <string name="total_chars">Total caractères :</string>
+    <string name="total_words">Total mots :</string>
+    <string name="total_lines">Total lignes :</string>
+
+	<!-- TODO TODO TODO TODo -->
+    <string name="open_mode">Open Mode</string>
+    <string name="auto_detection">Auto detect</string>
+    <string name="tab_close_other">Close Other Tabs</string>
+    <string name="tab_close_right">Close Right Tabs</string>
+    <string name="tab_close_all">Close All Tabs</string>
+    <string name="default_color_scheme">Default</string>
+    <string name="color_scheme">Color Scheme</string>
+    <string name="touch_zoom">Touch to Adjust Text Size</string>
+    <string name="stopSelectingText">Stop selecting text</string>
+    <string name="cut">Cut</string>
+    <string name="cutAll">Cut all</string>
+    <string name="copy">Copy</string>
+    <string name="copyAll">Copy all</string>
+    <string name="paste">Paste</string>
+    <string name="copyUrl">Copy URL</string>
+    <string name="auto_capitalize">Auto capitalize</string>
+    <string name="auto_capitalize_summary">Capitalize the first word of each sentence.\nThis feature depends on IME.\nRequest restart.</string>
+    <string name="can_not_open_file">Can not open file!</string>
+    <string name="date_format">Date and Time Format</string>
+    <string name="use_selected_format">Using the selected format</string>
+    <string name="use_custom_format">Using a custom format</string>
+    <string name="date_format_title">Use Date and Time Patterns of the java.text.SimpleDateFormat</string>
+    <string name="date_format_summary">yyyy:Year, MM:Month, dd:Date, HH:Hour, mm:Minute, ss:Second</string>
+    <string name="use_system_menu">Using the system menu</string>
+    <string name="use_system_menu_summary">Try to fix not be able to copy and paste.</string>
+    <string name="run_in_sl4a_terminal">Run in SL4A (Terminal)</string>
+    <string name="run_in_sl4a_background">Run in SL4A (Background)</string>
+    <string name="run_before_save_file">Run the file must be saved before it.</string>
+    <string name="not_found_up">Cannot find %s above the current position!</string>
+    <string name="not_found_next">Cannot find %s below the current position!</string>
+    <string name="keyword">Keyword: </string>
+    <string name="path_not_correct">The path is not correct! </string>
+    <string name="keyword_notbe_empty">Keywords can not be empty!</string>
+    <string name="find_result">Found %s results!</string>
+    <string name="line_num">Line %s: </string>
+    <string name="check_for_updates">Check for Updates</string>
+    <string name="recurse">Recurse</string>
+    <string name="ignore_case">Ignore case</string>
+    <string name="use_regex">Use Regex</string>
+    <string name="use_space_for_tab">Insert spaces for tabs</string>
+    <string name="indent_size">Indent size</string>
+    <string name="new_folder">New folder</string>
+    <string name="create_folder_fail">Can\'t create folder!</string>
+    <string name="faq">FAQ</string>
+    <string name="error_accurs">Error occurs: </string>
+    <string name="custom_toolbar">Custom Toolbar</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="preview">Preview file</string>
+    <string name="symbol_bar">Symbols Bar</string>
+    <string name="forward">Forward</string>
+    <string name="back">Back</string>
+    <string name="find_in_files">Find in files...</string>
+    <string name="color">Color</string>
+    <string name="settings_divider_text">Above the toggles will be activated</string>
+    <string name="qq_group_num">87272821</string>
+    <string name="browse_button_text">...</string>
+    <string name="match_word">Match whole word</string>
+    <string name="text_pastelist">Paste List</string>
+    <string name="crash_report">Crash Report</string>
+    <string name="comment">Comment</string>
+    <string name="cursor_width">Cursor Width</string>
+    <string name="try_root">You might not have permission to open the file, the editor auto enable the ROOT mode, please re-open it!</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="project">Project</string>
+    <string name="default_encoding">Default Encoding</string>
+
+</resources>
